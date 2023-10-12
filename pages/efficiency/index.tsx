@@ -32,6 +32,7 @@ const Efficiency: FC<IEfficiencyProps> = ({ cardsEe }) => {
 
 	const handleClosePopupCard = (): void => {
 		setOpenPopup((pre) => !pre);
+    setSelectedCard({});
 	};
 
   const addMoreCards = () => {

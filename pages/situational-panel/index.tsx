@@ -32,6 +32,7 @@ const SitPanel: FC<ISitPanelProps> = ({ cardsSp }) => {
 
 	const handleClosePopupCard = (): void => {
 		setOpenPopupCard((pre) => !pre);
+    setSelectedCard({});
 	};
 
   const addMoreCards = () => {
