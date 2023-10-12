@@ -1,0 +1,64 @@
+@import "../../styles/scss/variables";
+@import "../../styles/scss/mixins";
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  background-color: $modal-color;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity .5s linear;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__container {
+  max-width: 1440px;
+  background-color: $white-color;
+  box-shadow: $normal-modal-shaddow;
+  border-radius: $border-radius-modal;
+  box-sizing: border-box;
+}
+
+.popup__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid $border-color;
+}
+
+.popup__title {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: $font-size-base;
+  line-height: 1.2;
+  color: $bread-color;
+  margin: 0;
+}
+
+.popup__close {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.popup__close:hover {
+  opacity: .6;
+}
+
+.popup__content {
+  padding: 20px;
+}

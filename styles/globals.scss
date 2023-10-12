@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+
+body {
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}

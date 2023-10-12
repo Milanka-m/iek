@@ -1,0 +1,17 @@
+@import "../../styles/scss/variables";
+
+.card {
+  :global {
+    .ant-card-body {
+      min-height: 90px;
+    }
+    .ant-card-meta-title {
+      color: $text-color;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+.card__image {
+  max-height: 450px;
+}

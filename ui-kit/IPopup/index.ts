@@ -1,0 +1,1 @@
+export { IPopup as default } from "./IPopup";

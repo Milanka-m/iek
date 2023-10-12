@@ -1,0 +1,49 @@
+// border
+$border-radius-base: 5px;
+$border-radius-field: 4px;
+$border-radius-modal: 6px;
+$border-radius-btn: 4px;
+
+// font
+$font-size-mini: 12px;
+$font-size-small: 13px;
+$font-size-medium: 14px;
+$font-size-base: 16px;
+$font-size-large: 24px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//colors
+$white-color: #fff;
+$black-color: #000;
+$dark-color: #6d8991;
+$border-color: #d9e4ea;
+$aside-color: #1a3649;
+$disabled-border-color: rgba($border-color, .3);
+$modal-color: rgba($black-color, .4);
+$yellow-color: #fac005;
+$orange-color: #f57c14;
+$accent-color: rgb(86, 180, 164);
+$shadow-color: #1c4062;
+$accent-hover-color: #38a390;
+$medium-accent-color: #bbe1db;
+$disabled-color: #9ad2c8;
+$error-color: rgb(253, 94, 94);
+$text-label-color: #c21500;
+$pink-color: #f2709c;
+$light-pink-color: #FFAFBD;
+$icon-color: #aac1cb;
+$green-color: #56b4a4;
+$text-color: #5f7380;
+$bread-color: #32373C;
+
+$normal-button-shaddow: 1.5px 1.5px 0px 1.5px $medium-accent-color,
+  -1.5px 1.5px 0px 1.5px $medium-accent-color,
+  -1.5px -1.5px 0px 1.5px $medium-accent-color,
+  1.5px -1.5px 0px 1.5px $medium-accent-color;
+
+$normal-modal-shaddow: 0 1px 10px rgba($shadow-color, 0.15);
+$boxshadow: 0.25rem 0.25rem 0.6rem rgba($shadow-color, 0.15), 0 0.5rem 1.125rem rgba($shadow-color, 0.05);
